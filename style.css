@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    height: 90vh;
+    width: 70vw;
+    background-color: rgba(144, 146, 145, 0.358);
+}
+
+/* nav */
+.nav{
+    width: 100%;
+    height: 9vh;
+    /* background-color: pink; */
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.nav .heading h2{
+    font-style: oblique;
+    margin-left: 4vw;
+}
+.nav  .menu i{
+    margin-right: 4vw;
+}
+
+
+
+/* blog */
+.blog{
+    height: 82vh;
+    width: 70vw;
+    /* background-color: blueviolet; */
+    display: flex;
+    gap: 1vw;
+}
+.left{
+    height: 79vh;
+    width: 70vw;
+/* background-color: chartreuse; */
+}
+.right{
+    height: 82vh;
+    width: 30vw;
+/* background-color: rgb(255, 111, 0); */
+}
+.left {
+    padding-left: 3.2vw;
+    padding-top: 3vh;
+}
+.left h3{
+    font-weight: 500;
+    font-style: oblique;
+}
+.left p{
+    padding-top: 1vh;
+    width: 25vw;
+}
+.l-img img{
+    height: 50vh;
+    width: 50vw;
+}
+.ll{
+    text-align:center;
+}
+.ll p{
+    text-align: center;
+    width: 50vw;
+}
+
+
+
+/* right */
+.right{
+    text-align: center;
+    padding-top: 2vh;
+}
+.right .r-img img{
+    width: 15vw;
+}
+.right h2{
+   
+    font-size: 3.4vh;
+    padding-top: 2vh;
+    font-weight: 550;
+   
+}
+
+  .icons .fa{
+    padding: 10px;
+    color: rgba(128, 128, 128, 0.726)
+  }
+  .r1-img img{
+    width: 15vw;
+  }
+
+
+
+
+  @media (max-width:500px) {
+    .container{
+        font-size: 2vh;
+    }
+    .box{
+       width: 90vw;
+    }
+    .ll {
+        padding-top: 2vh;
+    }
+    .blog .left p{
+      height: auto;
+      width: 50vw;
+      padding-bottom: 2vh;
+    }
+    .l-img img{
+        height: 20vh;
+    }
+    .blog{
+        gap: 2vh;
+    }
+    .right{
+        padding-left: 2vh;
+    }
+    .right h2{
+        font-size: 2vh;
+    }
+    .right .r-img img{
+        width: 20vw;
+    }
+  }
